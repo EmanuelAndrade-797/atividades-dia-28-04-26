@@ -36,4 +36,44 @@ return ($valor* $cotaiene);
 
 }
 echo " em iene o valor e:  ", ieneparareal (10,0.031);
+
+namespace geometria;
+
+function areaQuadrado ($lado){
+
+return ($lado*$lado);
+
+}
+echo " a area do quadrado é: ", areaQuadrado (5);
+
+function areaRetangulo ($base, $alturaq){
+
+return ($base*$alturaq);
+
+}
+echo " a area do retangulo é: ", areaRetangulo (2, 4);
+
+function areaTriangulo ($base, $alturar){
+
+return (($base*$alturar)/2);
+
+
+}
+echo " a area do triangulo é: ", areaTriangulo (3, 5);
+ 
+function areaCirculo ($raio){
+ 
+return (3.14*($raio*$raio));
+
+
+}
+echo " a area do circulo é: ", areaCirculo (8);
+
+function areaTrapezio ($baseMaior, $baseMenor, $alturat){
+
+return (($baseMaior+$baseMenor)*$alturat)/2;
+
+
+}
+echo " a area do trapezio é:  ", areaTrapezio (10, 10, 2);
 ?>
